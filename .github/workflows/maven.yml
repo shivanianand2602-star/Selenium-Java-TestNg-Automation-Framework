@@ -22,7 +22,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Running Test Automation Framework with Maven
-      run: mvn test -X -Dbrowser=chrome -DisLambdaTest=true -DisHeadless=true
+      run: mvn test -X -Dbrowser=chrome -DisLambdaTest=true -DisHeadless=false
 
     - name: Upload Test logs
       if: always()
@@ -63,7 +63,7 @@ jobs:
       if: always()
       uses: JamesIves/github-pages-deploy-action@v4.7.6
       with:
-        folder: public/extent-reports
+        folder: public/extent-reports/
         token: ${{ secrets.PAT1 }}
         clean: true
 
