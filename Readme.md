@@ -21,7 +21,7 @@ This project is part of my **QA Automation Portfolio** and was built independent
 - **Maven** (for build management and dependency handling)  
 - **ExtentReports** (for test reporting)  
 - **LambdaTest** (optional cross-browser cloud testing)
-- GitHub Actions (CI execution)
+- **GitHub Actions (CI execution)**
 
 ---
 
@@ -98,6 +98,7 @@ This project demonstrates:
 - Writing reusable, maintainable test frameworks
 - Ability to integrate reporting and utilities
 - Practical application of QA automation best practices
+
 
 
 
